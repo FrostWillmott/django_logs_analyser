@@ -1,0 +1,20 @@
+[project]
+name = "django-logs-analyser"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "FrostWillmott",email = "121764288+FrostWillmott@users.noreply.github.com"}
+]
+readme = "README.md"
+packages = [
+  { include = "django_logs_analyser", from = "src" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=8.3.5,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
